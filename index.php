@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head> Hola</head>
+    
 <body>
-    <?php 
-    echo "Mi primer programa PHP";
-    ?>
+    <h1> Mi primer programa PHP </h1>
+    <?php phpinfo ?>
 </body>
 </html>
