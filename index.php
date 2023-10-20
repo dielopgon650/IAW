@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-    
 <body>
-    <h1> Mi primer programa PHP </h1>
+ <h2>Mi primer programa PHP </h2>
+    <?php phpinfo
+    ?>
 </body>
 </html>
