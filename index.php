@@ -2,7 +2,7 @@
 <html>
 <body>
  <h2>Mi primer programa PHP </h2>
-    <?php phpinfo
+    <?php echo "Hola mundo";
     ?>
 </body>
 </html>
