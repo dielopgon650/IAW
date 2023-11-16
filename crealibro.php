@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (mysqli_num_rows($resultado) > 0) {
         echo "Ya existe un libro con el ISBN: $isbn";
     } else {
-        $sql = "INSERT INTO libros (nombre, autor, isbn, puntuacion, genero) VALUES ('$titulo', '$autor', '$isbn', $puntuacion, '$genero')";
+        $sql = "INSERT INTO libros (nombre, autor, isbn, puntuacion, genero) VALUES ('$nombre', '$autor', '$isbn', $puntuacion, '$genero')";
 
         echo $sql;
 
